@@ -18,6 +18,14 @@ function Animals() {
   )
 }
 
+// JSX
+const element = <>
+                  <h1>JSX</h1> 
+                  <p>New paragraph</p>
+                  <form>
+                    <input type="text"></input>
+                  </form>
+                </>
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -32,7 +40,9 @@ root.render(
     //     </ul>
     // </div>
 
-    <Animals />
+    // <Animals />
+
+    element
 );
 
 // If you want to start measuring performance in your app, pass a function
